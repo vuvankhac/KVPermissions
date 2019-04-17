@@ -1,0 +1,16 @@
+PODS:
+  - KVPermissions (0.1.0)
+
+DEPENDENCIES:
+  - KVPermissions (from `../`)
+
+EXTERNAL SOURCES:
+  KVPermissions:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KVPermissions: e8d615c5512447fb4703fd34ae13c7998d51e55b
+
+PODFILE CHECKSUM: ff43718f0ebc3bbf5d555f3f9c381754b4f3184c
+
+COCOAPODS: 1.6.1

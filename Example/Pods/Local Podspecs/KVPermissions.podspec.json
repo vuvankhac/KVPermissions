@@ -1,0 +1,22 @@
+{
+  "name": "KVPermissions",
+  "version": "0.1.0",
+  "summary": "A short description of KVPermissions.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Vu Van Khac (VTI.D1)/KVPermissions",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Vu Van Khac (VTI.D1)": "khac.vuvan@vti.com.vn"
+  },
+  "source": {
+    "git": "https://github.com/Vu Van Khac (VTI.D1)/KVPermissions.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "KVPermissions/Classes/**/*"
+}

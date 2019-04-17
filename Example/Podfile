@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'KVPermissions_Example' do
+  pod 'KVPermissions', :path => '../'
+
+  target 'KVPermissions_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

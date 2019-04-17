@@ -1,0 +1,6 @@
+framework module Pods_KVPermissions_Example {
+  umbrella header "Pods-KVPermissions_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -66,7 +66,11 @@ public enum KVPermissionType {
             return AVCaptureDevice.authorizationStatus(for: AVMediaType.video) == .authorized
             
         case .contacts:
-            return CNContactStore.authorizationStatus(for: .contacts) == .authorized
+            if #available(iOS 9.0, *) {
+                return CNContactStore.authorizationStatus(for: .contacts) == .authorized
+            } else {
+                return false
+            }
             
         case .location(let type):
             let status = CLLocationManager.authorizationStatus()
@@ -82,10 +86,14 @@ public enum KVPermissionType {
             }
             
         case .mediaLibrary:
-            return MPMediaLibrary.authorizationStatus() == .authorized
+            if #available(iOS 9.3, *) {
+                return MPMediaLibrary.authorizationStatus() == .authorized
+            } else {
+                return false
+            }
             
         case .microphone:
-            return AVAudioSession.sharedInstance().recordPermission() == .granted
+            return AVAudioSession.sharedInstance().recordPermission == .granted
             
         case .motion:
             if #available(iOS 11.0, *) {
@@ -95,8 +103,16 @@ public enum KVPermissionType {
             }
             
         case .notification:
-            guard let remoteNotificationsAuthorizationStatus = fetchRemoteNotificationsAuthorizationStatus() else { return false }
-            return remoteNotificationsAuthorizationStatus == .authorized
+            if #available(iOS 10.0, *) {
+                guard let remoteNotificationsAuthorizationStatus = fetchRemoteNotificationsAuthorizationStatus() else { return false }
+                return remoteNotificationsAuthorizationStatus == .authorized
+            } else {
+                if let notificationType = UIApplication.shared.currentUserNotificationSettings?.types, notificationType.isEmpty {
+                    return false
+                } else {
+                    return true
+                }
+            }
             
         case .photoLibrary:
             return PHPhotoLibrary.authorizationStatus() == .authorized
@@ -105,7 +121,11 @@ public enum KVPermissionType {
             return EKEventStore.authorizationStatus(for: .reminder) == .authorized
             
         case .speech:
-            return SFSpeechRecognizer.authorizationStatus() == .authorized
+            if #available(iOS 10.0, *) {
+                return SFSpeechRecognizer.authorizationStatus() == .authorized
+            } else {
+                return false
+            }
         }
     }
     
@@ -118,16 +138,24 @@ public enum KVPermissionType {
             return AVCaptureDevice.authorizationStatus(for: AVMediaType.video) == .denied
             
         case .contacts:
-            return CNContactStore.authorizationStatus(for: .contacts) == .denied
+            if #available(iOS 9.0, *) {
+                return CNContactStore.authorizationStatus(for: .contacts) == .denied
+            } else {
+                return false
+            }
             
         case .location(_):
             return CLLocationManager.authorizationStatus() == .denied
             
         case .mediaLibrary:
-            return MPMediaLibrary.authorizationStatus() == .denied
+            if #available(iOS 9.3, *) {
+                return MPMediaLibrary.authorizationStatus() == .denied
+            } else {
+                return false
+            }
             
         case .microphone:
-            return AVAudioSession.sharedInstance().recordPermission() == .denied
+            return AVAudioSession.sharedInstance().recordPermission == .denied
             
         case .motion:
             if #available(iOS 11.0, *) {
@@ -137,8 +165,16 @@ public enum KVPermissionType {
             }
             
         case .notification:
-            guard let remoteNotificationsAuthorizationStatus = fetchRemoteNotificationsAuthorizationStatus() else { return false }
-            return remoteNotificationsAuthorizationStatus == .denied
+            if #available(iOS 10.0, *) {
+                guard let remoteNotificationsAuthorizationStatus = fetchRemoteNotificationsAuthorizationStatus() else { return false }
+                return remoteNotificationsAuthorizationStatus == .denied
+            } else {
+                if let notificationType = UIApplication.shared.currentUserNotificationSettings?.types, notificationType.isEmpty {
+                    return true
+                } else {
+                    return false
+                }
+            }
             
         case .photoLibrary:
             return PHPhotoLibrary.authorizationStatus() == .denied
@@ -147,7 +183,11 @@ public enum KVPermissionType {
             return EKEventStore.authorizationStatus(for: .reminder) == .denied
             
         case .speech:
-            return SFSpeechRecognizer.authorizationStatus() == .denied
+            if #available(iOS 10.0, *) {
+                return SFSpeechRecognizer.authorizationStatus() == .denied
+            } else {
+                return false
+            }
         }
     }
     
@@ -165,8 +205,10 @@ public enum KVPermissionType {
             AVCaptureDevice.requestAccess(for: .video) { (finished) in }
             
         case .contacts:
-            let store = CNContactStore()
-            store.requestAccess(for: .contacts) { (granted, error) in }
+            if #available(iOS 9.0, *) {
+                let store = CNContactStore()
+                store.requestAccess(for: .contacts) { (granted, error) in }
+            }
             
         case .location(let type):
             switch type {
@@ -184,7 +226,9 @@ public enum KVPermissionType {
             }
             
         case .mediaLibrary:
-            MPMediaLibrary.requestAuthorization { (finished) in }
+            if #available(iOS 9.3, *) {
+                MPMediaLibrary.requestAuthorization { (finished) in }
+            }
             
         case .microphone:
             AVAudioSession.sharedInstance().requestRecordPermission { (granted) in }
@@ -197,9 +241,14 @@ public enum KVPermissionType {
             }
             
         case .notification:
-            let center = UNUserNotificationCenter.current()
-            center.requestAuthorization(options: [.badge, .alert, .sound]) { (granted, error) in }
-            UIApplication.shared.registerForRemoteNotifications()
+            if #available(iOS 10.0, *) {
+                let center = UNUserNotificationCenter.current()
+                center.requestAuthorization(options: [.badge, .alert, .sound]) { (granted, error) in }
+                UIApplication.shared.registerForRemoteNotifications()
+            } else {
+                UIApplication.shared.registerUserNotificationSettings(UIUserNotificationSettings(types: [.badge, .sound, .alert], categories: nil))
+                UIApplication.shared.registerForRemoteNotifications()
+            }
             
         case .photoLibrary:
             PHPhotoLibrary.requestAuthorization { (finished) in }
@@ -209,10 +258,13 @@ public enum KVPermissionType {
             eventStore.requestAccess(to: .reminder) { (granted, error) in }
             
         case .speech:
-            SFSpeechRecognizer.requestAuthorization { (status) in }
+            if #available(iOS 10.0, *) {
+                SFSpeechRecognizer.requestAuthorization { (status) in }
+            }
         }
     }
     
+    @available(iOS 10.0, *)
     private func fetchRemoteNotificationsAuthorizationStatus() -> UNAuthorizationStatus? {
         var notificationSettings: UNNotificationSettings?
         let semaphore = DispatchSemaphore(value: 0)

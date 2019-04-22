@@ -9,10 +9,10 @@
 /* Begin PBXBuildFile section */
 		1B725B35FD24C3AF09F2500C34E414D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		2DB2E869C5BCAB64AF5D6B15ACFF83F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		3C006B012266F0C8009999AB /* KVPermissions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C006B002266F0C8009999AB /* KVPermissions.swift */; };
+		4D86C13288C1691FDF172D8C6691F2BA /* KVPermissions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB8657807AC30A37D3F583B8A072101 /* KVPermissions.swift */; };
 		5AAA199CAC2B0FF6EFC49859D83E20FC /* Pods-KVPermissions_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A97242F6A893618B1A37EDF38D3839C /* Pods-KVPermissions_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		88610D9376522003B1BE4190F9CAE85A /* KVPermissions-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E9AC788C3E94137EE95ED95A55D52932 /* KVPermissions-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A514C6176D2BCAA9DE2348EF5909775C /* KVPermissions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F93C496B1A82BE5A9DDBEE946E11E7 /* KVPermissions-dummy.m */; };
+		88610D9376522003B1BE4190F9CAE85A /* KVPermissions-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BD898DBCFD94D35EE9EF2C63884B378 /* KVPermissions-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E6DCF7B0CD70611949068DD42589BB2 /* KVPermissions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AABDC1ACDCDE2CB77531788885EB390C /* KVPermissions-dummy.m */; };
 		BB8BE40F8221D87CD987654D7C8202A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		C116D03AB08ECF888B8488030229DBF3 /* Pods-KVPermissions_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E67D25C346683007970950E7B001C63 /* Pods-KVPermissions_Tests-dummy.m */; };
 		CA514793C54363A34F03B90F26FF6C82 /* Pods-KVPermissions_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF274B1F26973655FACF6017A484542B /* Pods-KVPermissions_Example-dummy.m */; };
@@ -37,38 +37,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1A5EB9B9CA9256EF77F9C029F0C71E9E /* KVPermissions.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KVPermissions.xcconfig; sourceTree = "<group>"; };
+		0503F188F83F416FDD1B46A10341A0FF /* KVPermissions-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KVPermissions-Info.plist"; sourceTree = "<group>"; };
+		0BD898DBCFD94D35EE9EF2C63884B378 /* KVPermissions-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KVPermissions-umbrella.h"; sourceTree = "<group>"; };
+		1A8A3EFBF2227F19F73D48135BA1271E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1BF1C7964CC29D58D68822C2535F2616 /* KVPermissions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KVPermissions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E67D25C346683007970950E7B001C63 /* Pods-KVPermissions_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KVPermissions_Tests-dummy.m"; sourceTree = "<group>"; };
 		296B155B2BF1BCB8A8DD80B40FB4074E /* Pods-KVPermissions_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KVPermissions_Tests.modulemap"; sourceTree = "<group>"; };
-		3823CF8EFBE3C9C1FB02C11180D50834 /* KVPermissions.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = KVPermissions.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		3C006B002266F0C8009999AB /* KVPermissions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = KVPermissions.swift; path = KVPermissions/Classes/KVPermissions.swift; sourceTree = "<group>"; };
+		3DD85CEEE5E872F862DC8A08D0EAACFE /* KVPermissions.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KVPermissions.xcconfig; sourceTree = "<group>"; };
 		41890A8FF4FF4B2EB5CF9955D4748A0F /* Pods-KVPermissions_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KVPermissions_Tests-Info.plist"; sourceTree = "<group>"; };
 		42BF8988B18760F90A63F281D6B1123B /* Pods-KVPermissions_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KVPermissions_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		48F11C6A54D8648BBA6BDD6B57754AF7 /* Pods_KVPermissions_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KVPermissions_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		49C313E8AA7BF2542C01F477670A13EA /* Pods-KVPermissions_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KVPermissions_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		4CB6DD89D830CBD6E9DEB0146FCD2475 /* KVPermissions-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KVPermissions-Info.plist"; sourceTree = "<group>"; };
+		4CB8657807AC30A37D3F583B8A072101 /* KVPermissions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KVPermissions.swift; path = KVPermissions/Classes/KVPermissions.swift; sourceTree = "<group>"; };
+		571F951BD7BB497B626B321754B31B83 /* KVPermissions.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KVPermissions.modulemap; sourceTree = "<group>"; };
 		5A97242F6A893618B1A37EDF38D3839C /* Pods-KVPermissions_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KVPermissions_Tests-umbrella.h"; sourceTree = "<group>"; };
-		6FD5B9ABA354AA36014452A6C3E34229 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		6F3762BBEE179733CB5AB19CD46EE3B5 /* KVPermissions-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KVPermissions-prefix.pch"; sourceTree = "<group>"; };
 		7394BC73A799093077B1AEB96573865E /* Pods-KVPermissions_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KVPermissions_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		77F93C496B1A82BE5A9DDBEE946E11E7 /* KVPermissions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KVPermissions-dummy.m"; sourceTree = "<group>"; };
 		8DA467C33BB18C801DA75B62D2DD0138 /* Pods-KVPermissions_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KVPermissions_Example-Info.plist"; sourceTree = "<group>"; };
+		988F64DEC49105D58993D31E4D66F097 /* KVPermissions.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = KVPermissions.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A23ABD039D57317AA2DA533F79831D17 /* Pods-KVPermissions_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KVPermissions_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AABDC1ACDCDE2CB77531788885EB390C /* KVPermissions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KVPermissions-dummy.m"; sourceTree = "<group>"; };
 		ACD29314D4C11CB6D66D69A299202548 /* Pods-KVPermissions_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KVPermissions_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B1AEF1C7D6C7C16AB26BED806C12B4CC /* Pods-KVPermissions_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KVPermissions_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B85EB78B2028B082BCAA051F232E964F /* Pods-KVPermissions_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KVPermissions_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		BF274B1F26973655FACF6017A484542B /* Pods-KVPermissions_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KVPermissions_Example-dummy.m"; sourceTree = "<group>"; };
+		C19BFCF6CF19A1E34E7343F91E07CF9D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		C90728A56375833239DA81824B437E18 /* Pods-KVPermissions_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KVPermissions_Example-frameworks.sh"; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CD74285F4EAE6073AD7DD8541F62FD70 /* Pods_KVPermissions_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KVPermissions_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E3590A0B8261F7C83B7AC8CF636AD21A /* KVPermissions.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KVPermissions.modulemap; sourceTree = "<group>"; };
-		E36D74EA52540FEA32B22595A07F272D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E3E1193ABA1873B37FC2B6386BD2A495 /* Pods-KVPermissions_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KVPermissions_Example-umbrella.h"; sourceTree = "<group>"; };
-		E9AC788C3E94137EE95ED95A55D52932 /* KVPermissions-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KVPermissions-umbrella.h"; sourceTree = "<group>"; };
 		F37E571FEAD76A801B23FC65FF248086 /* Pods-KVPermissions_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KVPermissions_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		F6161807CA3957B2A767534062DB8FA9 /* Pods-KVPermissions_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KVPermissions_Example.modulemap"; sourceTree = "<group>"; };
-		FD533C2760D161B44AB65A028128526F /* KVPermissions-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KVPermissions-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +99,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		082F98A119684956F998BE07D6032B7F /* KVPermissions */ = {
+			isa = PBXGroup;
+			children = (
+				4CB8657807AC30A37D3F583B8A072101 /* KVPermissions.swift */,
+				113F51B2F54DEC0EA19CA20CE9199534 /* Pod */,
+				F61FF9C90496D7A4A54B3D0A80A222BD /* Support Files */,
+			);
+			name = KVPermissions;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		0DDDB3DD80B10F6E23429FDBD6CE06F6 /* Pods-KVPermissions_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -115,37 +126,22 @@
 			path = "Target Support Files/Pods-KVPermissions_Tests";
 			sourceTree = "<group>";
 		};
-		29C0B72ECAB425887ED527576A9D5D1E /* KVPermissions */ = {
+		113F51B2F54DEC0EA19CA20CE9199534 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				3C006B002266F0C8009999AB /* KVPermissions.swift */,
-				F0354A4C3239DBC1AAF9AEA995ADAAC1 /* Pod */,
-				4F1382C79B18782E6B09DC91D2181A60 /* Support Files */,
+				988F64DEC49105D58993D31E4D66F097 /* KVPermissions.podspec */,
+				C19BFCF6CF19A1E34E7343F91E07CF9D /* LICENSE */,
+				1A8A3EFBF2227F19F73D48135BA1271E /* README.md */,
 			);
-			name = KVPermissions;
-			path = ../..;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		301489F8A4F7BD28BF342C3B7179D715 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				29C0B72ECAB425887ED527576A9D5D1E /* KVPermissions */,
+				082F98A119684956F998BE07D6032B7F /* KVPermissions */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		4F1382C79B18782E6B09DC91D2181A60 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E3590A0B8261F7C83B7AC8CF636AD21A /* KVPermissions.modulemap */,
-				1A5EB9B9CA9256EF77F9C029F0C71E9E /* KVPermissions.xcconfig */,
-				77F93C496B1A82BE5A9DDBEE946E11E7 /* KVPermissions-dummy.m */,
-				4CB6DD89D830CBD6E9DEB0146FCD2475 /* KVPermissions-Info.plist */,
-				FD533C2760D161B44AB65A028128526F /* KVPermissions-prefix.pch */,
-				E9AC788C3E94137EE95ED95A55D52932 /* KVPermissions-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/KVPermissions";
 			sourceTree = "<group>";
 		};
 		74CE749EF7F32B158279A69383DA1707 /* Targets Support Files */ = {
@@ -201,16 +197,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F0354A4C3239DBC1AAF9AEA995ADAAC1 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				3823CF8EFBE3C9C1FB02C11180D50834 /* KVPermissions.podspec */,
-				6FD5B9ABA354AA36014452A6C3E34229 /* LICENSE */,
-				E36D74EA52540FEA32B22595A07F272D /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		F3BB50C97C053E9D5B54D6786E5CCC23 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -219,6 +205,20 @@
 				48F11C6A54D8648BBA6BDD6B57754AF7 /* Pods_KVPermissions_Tests.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		F61FF9C90496D7A4A54B3D0A80A222BD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				571F951BD7BB497B626B321754B31B83 /* KVPermissions.modulemap */,
+				3DD85CEEE5E872F862DC8A08D0EAACFE /* KVPermissions.xcconfig */,
+				AABDC1ACDCDE2CB77531788885EB390C /* KVPermissions-dummy.m */,
+				0503F188F83F416FDD1B46A10341A0FF /* KVPermissions-Info.plist */,
+				6F3762BBEE179733CB5AB19CD46EE3B5 /* KVPermissions-prefix.pch */,
+				0BD898DBCFD94D35EE9EF2C63884B378 /* KVPermissions-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/KVPermissions";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,7 +256,7 @@
 			buildConfigurationList = AD9BD6484FAC4BB165FA8835B1959F32 /* Build configuration list for PBXNativeTarget "KVPermissions" */;
 			buildPhases = (
 				F2320DFFCC8AD8A4DAE99A2EA59D5107 /* Headers */,
-				3E12D1C5766B379E0D86C8FB44645A2E /* Sources */,
+				54BFF4DF4A8F656F17E88F5374C69BF0 /* Sources */,
 				135F1A1DBC5052B4CFBCE97CCC1CEEDC /* Frameworks */,
 				589DC9B0220C2FA1D5320C1EE087BDE2 /* Resources */,
 			);
@@ -314,12 +314,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
-				TargetAttributes = {
-					207184F175523D845A00AAE697787DC3 = {
-						LastSwiftMigration = 1020;
-					};
-				};
+				LastUpgradeCheck = 1020;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -382,12 +377,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3E12D1C5766B379E0D86C8FB44645A2E /* Sources */ = {
+		54BFF4DF4A8F656F17E88F5374C69BF0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A514C6176D2BCAA9DE2348EF5909775C /* KVPermissions-dummy.m in Sources */,
-				3C006B012266F0C8009999AB /* KVPermissions.swift in Sources */,
+				8E6DCF7B0CD70611949068DD42589BB2 /* KVPermissions-dummy.m in Sources */,
+				4D86C13288C1691FDF172D8C6691F2BA /* KVPermissions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,7 +404,67 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		278EE6451F2F8E94EE980909886EDF1E /* Debug */ = {
+		05DF210AC65EBB0E593AAF976B2C2177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		21DD032F09A86006C8A1B51F3A489184 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B1AEF1C7D6C7C16AB26BED806C12B4CC /* Pods-KVPermissions_Tests.debug.xcconfig */;
 			buildSettings = {
@@ -425,7 +480,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-KVPermissions_Tests/Pods-KVPermissions_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-KVPermissions_Tests/Pods-KVPermissions_Tests.modulemap";
@@ -442,144 +497,11 @@
 			};
 			name = Debug;
 		};
-		303DF475DD0D16766389D33FEDAF240A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = ACD29314D4C11CB6D66D69A299202548 /* Pods-KVPermissions_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-KVPermissions_Example/Pods-KVPermissions_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-KVPermissions_Example/Pods-KVPermissions_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		403BE190A6A94D09901013CE35881879 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 42BF8988B18760F90A63F281D6B1123B /* Pods-KVPermissions_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-KVPermissions_Tests/Pods-KVPermissions_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-KVPermissions_Tests/Pods-KVPermissions_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		541782DA56D0C1D37F206F233BE31EBE /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1A5EB9B9CA9256EF77F9C029F0C71E9E /* KVPermissions.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/KVPermissions/KVPermissions-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/KVPermissions/KVPermissions-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/KVPermissions/KVPermissions.modulemap";
-				PRODUCT_MODULE_NAME = KVPermissions;
-				PRODUCT_NAME = KVPermissions;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		65E55B1617FF362A9D4FE0A9AF22DF58 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B85EB78B2028B082BCAA051F232E964F /* Pods-KVPermissions_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-KVPermissions_Example/Pods-KVPermissions_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-KVPermissions_Example/Pods-KVPermissions_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */ = {
+		421ECB1396280A8D83853C3DDBED1700 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -627,7 +549,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -640,11 +562,11 @@
 			};
 			name = Debug;
 		};
-		DB1CBD9B629C080E88E1DA3FD0476226 /* Debug */ = {
+		49B6284F32DCE868D6CCCB26FBF65661 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1A5EB9B9CA9256EF77F9C029F0C71E9E /* KVPermissions.xcconfig */;
+			baseConfigurationReference = 3DD85CEEE5E872F862DC8A08D0EAACFE /* KVPermissions.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -657,7 +579,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/KVPermissions/KVPermissions-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/KVPermissions/KVPermissions-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/KVPermissions/KVPermissions.modulemap";
 				PRODUCT_MODULE_NAME = KVPermissions;
@@ -665,72 +587,146 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		F232B5ECA11A71BFA199A229B323F454 /* Release */ = {
+		55FBE2C182F480B878862D53D18750D3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DD85CEEE5E872F862DC8A08D0EAACFE /* KVPermissions.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.2;
-				SYMROOT = "${SRCROOT}/../build";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KVPermissions/KVPermissions-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KVPermissions/KVPermissions-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KVPermissions/KVPermissions.modulemap";
+				PRODUCT_MODULE_NAME = KVPermissions;
+				PRODUCT_NAME = KVPermissions;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		5FA0A4AFE10FCC55CD3B215FE3D21D98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACD29314D4C11CB6D66D69A299202548 /* Pods-KVPermissions_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KVPermissions_Example/Pods-KVPermissions_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KVPermissions_Example/Pods-KVPermissions_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		990F5E6FD323A16E3ABF7BFA107F502E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42BF8988B18760F90A63F281D6B1123B /* Pods-KVPermissions_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KVPermissions_Tests/Pods-KVPermissions_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KVPermissions_Tests/Pods-KVPermissions_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F112CD1954EA292A4F793468C8F0CBD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B85EB78B2028B082BCAA051F232E964F /* Pods-KVPermissions_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KVPermissions_Example/Pods-KVPermissions_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KVPermissions_Example/Pods-KVPermissions_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -738,8 +734,8 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */,
-				F232B5ECA11A71BFA199A229B323F454 /* Release */,
+				421ECB1396280A8D83853C3DDBED1700 /* Debug */,
+				05DF210AC65EBB0E593AAF976B2C2177 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -747,8 +743,8 @@
 		64B35D84D8635F433743B715F868436A /* Build configuration list for PBXNativeTarget "Pods-KVPermissions_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				278EE6451F2F8E94EE980909886EDF1E /* Debug */,
-				403BE190A6A94D09901013CE35881879 /* Release */,
+				21DD032F09A86006C8A1B51F3A489184 /* Debug */,
+				990F5E6FD323A16E3ABF7BFA107F502E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -756,8 +752,8 @@
 		7A547DA0922B8FBC6C37F4116FF451ED /* Build configuration list for PBXNativeTarget "Pods-KVPermissions_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				65E55B1617FF362A9D4FE0A9AF22DF58 /* Debug */,
-				303DF475DD0D16766389D33FEDAF240A /* Release */,
+				F112CD1954EA292A4F793468C8F0CBD9 /* Debug */,
+				5FA0A4AFE10FCC55CD3B215FE3D21D98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -765,8 +761,8 @@
 		AD9BD6484FAC4BB165FA8835B1959F32 /* Build configuration list for PBXNativeTarget "KVPermissions" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DB1CBD9B629C080E88E1DA3FD0476226 /* Debug */,
-				541782DA56D0C1D37F206F233BE31EBE /* Release */,
+				49B6284F32DCE868D6CCCB26FBF65661 /* Debug */,
+				55FBE2C182F480B878862D53D18750D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

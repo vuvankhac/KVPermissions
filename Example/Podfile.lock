@@ -1,5 +1,5 @@
 PODS:
-  - KVPermissions (0.1.0)
+  - KVPermissions (1.0.0)
 
 DEPENDENCIES:
   - KVPermissions (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  KVPermissions: e8d615c5512447fb4703fd34ae13c7998d51e55b
+  KVPermissions: 67489a56b9ec5ef625ccd6e057dba17e40e2d0f8
 
 PODFILE CHECKSUM: ff43718f0ebc3bbf5d555f3f9c381754b4f3184c
 

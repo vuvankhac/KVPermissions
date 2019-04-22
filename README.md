@@ -6,7 +6,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
-* iOS 10.0+
+* iOS 8.0+
 * Swift 5.0
 
 ## Installation
@@ -20,7 +20,7 @@ pod 'KVPermissions'
 
 ## Usage
 
-Show default loading:
+Notification:
 ```swift
 KVPermission.notification.request()
 ```
